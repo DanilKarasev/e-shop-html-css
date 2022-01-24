@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Shopping Cart</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/single.css">
+	<link rel="stylesheet" href="css/checkout.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="container">
+			<div class="header__wrapper">
+				<div class="header__left">
+					<div class="logo">
+						<a class="logo__link" href="index.html">
+							<img class="logo__image" src="img/logo.png" alt="logo">
+							<p>BRAN<span>D</span></p>
+						</a>
+					</div>
+
+					<details class="browse">
+						<summary class="browse__title">Browse <i class="fa fa-caret-down" aria-hidden="true"></i>
+						</summary>
+						<div class="browse__menu">
+							<p class="browse__menu-title">Women</p>
+							<a class="browse__item" href="#">Dresse</a>
+							<a class="browse__item" href="#">Tops</a>
+							<a class="browse__item" href="#">Sweaters/Knits</a>
+							<a class="browse__item" href="#">Jackets/Coats</a>
+							<a class="browse__item" href="#">Blazers</a>
+							<a class="browse__item" href="#">Denim</a>
+							<a class="browse__item" href="#">Leggings/Pants</a>
+							<a class="browse__item" href="#">Skirts/Shorts</a>
+							<a class="browse__item" href="#">Accessories</a>
+							<p class="browse__menu-title">Men</p>
+							<a class="browse__item" href="#">Tees/Tank tops</a>
+							<a class="browse__item" href="#">Shirts/Polos</a>
+							<a class="browse__item" href="#">Sweaters</a>
+							<a class="browse__item" href="#">Sweatshirts/Hoodies</a>
+							<a class="browse__item" href="#">Blazers</a>
+							<a class="browse__item" href="#">Jackets/Vests</a>
+						</div>
+					</details>
+
+					<form action="#" class="search">
+						<input class="search__input" type="text" placeholder="Search for Item...">
+						<button class="search__btn" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+					</form>
+				</div>
+
+				<div class="header__right">
+					<details class="basket">
+						<summary class="basket__title">
+							<img src="img/basket.png" alt="basket">
+						</summary>
+						<div class="basket__menu">
+							<div class="basket__card">
+								<a href="#" class="basket__link"></a>
+								<div class="basket__img">
+									<img src="img/basket1.jpg" alt="">
+								</div>
+								<div class="busket__info">
+									<h4>redox zane</h4>
+									<p><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+											class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+											class="fa fa-star-half-o" aria-hidden="true"></i></p>
+									<p class="busket__info-price">1 x $250</p>
+								</div>
+								<div class="basket__close">
+									<p class="basket__close-link"><i class="fa fa-times-circle" aria-hidden="true"></i></p>
+								</div>
+							</div>
+							<div class="basket__card">
+								<a href="#" class="basket__link"></a>
+								<div class="basket__img">
+									<img src="img/basket2.jpg" alt="">
+								</div>
+								<div class="busket__info">
+									<h4>redox zane</h4>
+									<p><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+											class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+											class="fa fa-star-half-o" aria-hidden="true"></i></p>
+									<p class="busket__info-price">1 x $250</p>
+								</div>
+								<div class="basket__close">
+									<p class="basket__close-link"><i class="fa fa-times-circle" aria-hidden="true"></i></p>
+								</div>
+							</div>
+							<div class="basket__price">
+								<p>total</p>
+								<p>$500.00</p>
+							</div>
+							<a href="#" class="basket__check">checkout</a>
+							<a href="cart.html" class="basket__cart">go to cart</a>
+
+						</div>
+					</details>
+
+					<details class="account">
+						<summary class="account__title">My Account <i class="fa fa-caret-down" aria-hidden="true"></i>
+						</summary>
+					</details>
+				</div>
+
+
+
+			</div>
+		</div>
+	</header>
+
+	<nav class="nav">
+		<div class="container">
+			<ul class="nav__list">
+				<li><a class="nav__link" href="">Home</a>
+					<div class="nav__menu nav__menu-home">
+						<div class="nav__box">
+							<p class="nav__menu-title">Women</p>
+							<a class="nav__item" href="#">Dresse</a>
+							<a class="nav__item" href="#">Tops</a>
+							<a class="nav__item" href="#">Sweaters/Knits</a>
+							<a class="nav__item" href="#">Jackets/Coats</a>
+							<a class="nav__item" href="#">Blazers</a>
+							<a class="nav__item" href="#">Denim</a>
+							<a class="nav__item" href="#">Leggings/Pants</a>
+							<a class="nav__item" href="#">Skirts/Shorts</a>
+							<a class="nav__item" href="#">Accessories</a>
+						</div>
+						<div class="nav__box">
+							<p class="nav__menu-title">Women</p>
+							<a class="nav__item" href="#">Dresse</a>
+							<a class="nav__item" href="#">Tops</a>
+							<a class="nav__item" href="#">Sweaters/Knits</a>
+							<a class="nav__item" href="#">Jackets/Coats</a>
+							<p class="nav__menu-title">Women</p>
+							<a class="nav__item" href="#">Dresse</a>
+							<a class="nav__item" href="#">Tops</a>
+							<a class="nav__item" href="#">Sweaters/Knits</a>
+						</div>
+						<div class="nav__box">
+							<div class="nav__wrapper">
+								<p class="nav__menu-title">Women</p>
+								<a class="nav__item" href="#">Dresse</a>
+								<a class="nav__item" href="#">Tops</a>
+								<a class="nav__item" href="#">Sweaters/Knits</a>
+								<a class="nav__item" href="#">Jackets/Coats</a>
+							</div>
+
+							<div class="nav__img">
+								<img src="img/sale.jpg" alt="sale">
+							</div>
+						</div>
+
+					</div>
+				</li>
+				<li><a class="nav__link" href="">Man</a>
+					<div class="nav__menu nav__menu-men">
+						<div class="nav__box">
+							<p class="nav__menu-title">Women</p>
+							<a class="nav__item" href="#">Dresse</a>
+							<a class="nav__item" href="#">Tops</a>
+							<a class="nav__item" href="#">Sweaters/Knits</a>
+							<a class="nav__item" href="#">Jackets/Coats</a>
+							<a class="nav__item" href="#">Blazers</a>
+							<a class="nav__item" href="#">Denim</a>
+							<a class="nav__item" href="#">Leggings/Pants</a>
+							<a class="nav__item" href="#">Skirts/Shorts</a>
+							<a class="nav__item" href="#">Accessories</a>
+						</div>
+						<div class="nav__box">
+							<p class="nav__menu-title">Women</p>
+							<a class="nav__item" href="#">Dresse</a>
+							<a class="nav__item" href="#">Tops</a>
+							<a class="nav__item" href="#">Sweaters/Knits</a>
+							<a class="nav__item" href="#">Jackets/Coats</a>
+							<p class="nav__menu-title">Women</p>
+							<a class="nav__item" href="#">Dresse</a>
+							<a class="nav__item" href="#">Tops</a>
+							<a class="nav__item" href="#">Sweaters/Knits</a>
+						</div>
+						<div class="nav__box">
+							<div class="nav__wrapper">
+								<p class="nav__menu-title">Women</p>
+								<a class="nav__item" href="#">Dresse</a>
+								<a class="nav__item" href="#">Tops</a>
+								<a class="nav__item" href="#">Sweaters/Knits</a>
+								<a class="nav__item" href="#">Jackets/Coats</a>
+							</div>
+							<div class="nav__img">
+								<img src="img/sale.jpg" alt="sale">
+							</div>
+						</div>
+					</div>
+				</li>
+				<li><a class="nav__link" href="">Women</a>
+					<div class="nav__menu nav__menu-women">
+						<div class="nav__box">
+							<p class="nav__menu-title">Women</p>
+							<a class="nav__item" href="#">Dresse</a>
+							<a class="nav__item" href="#">Tops</a>
+							<a class="nav__item" href="#">Sweaters/Knits</a>
+							<a class="nav__item" href="#">Jackets/Coats</a>
+							<a class="nav__item" href="#">Blazers</a>
+							<a class="nav__item" href="#">Denim</a>
+							<a class="nav__item" href="#">Leggings/Pants</a>
+							<a class="nav__item" href="#">Skirts/Shorts</a>
+							<a class="nav__item" href="#">Accessories</a>
+						</div>
+						<div class="nav__box">
+							<p class="nav__menu-title">Women</p>
+							<a class="nav__item" href="#">Dresse</a>
+							<a class="nav__item" href="#">Tops</a>
+							<a class="nav__item" href="#">Sweaters/Knits</a>
+							<a class="nav__item" href="#">Jackets/Coats</a>
+							<p class="nav__menu-title">Women</p>
+							<a class="nav__item" href="#">Dresse</a>
+							<a class="nav__item" href="#">Tops</a>
+							<a class="nav__item" href="#">Sweaters/Knits</a>
+						</div>
+						<div class="nav__box">
+							<div class="nav__wrapper">
+								<p class="nav__menu-title">Women</p>
+								<a class="nav__item" href="#">Dresse</a>
+								<a class="nav__item" href="#">Tops</a>
+								<a class="nav__item" href="#">Sweaters/Knits</a>
+								<a class="nav__item" href="#">Jackets/Coats</a>
+							</div>
+							<div class="nav__img">
+								<img src="img/sale.jpg" alt="sale">
+							</div>
+						</div>
+					</div>
+				</li>
+				<li><a class="nav__link" href="">Kids</a>
+					<div class="nav__menu nav__menu-kids">
+						<div class="nav__box">
+							<p class="nav__menu-title">Women</p>
+							<a class="nav__item" href="#">Dresse</a>
+							<a class="nav__item" href="#">Tops</a>
+							<a class="nav__item" href="#">Sweaters/Knits</a>
+							<a class="nav__item" href="#">Jackets/Coats</a>
+							<a class="nav__item" href="#">Blazers</a>
+							<a class="nav__item" href="#">Denim</a>
+							<a class="nav__item" href="#">Leggings/Pants</a>
+							<a class="nav__item" href="#">Skirts/Shorts</a>
+							<a class="nav__item" href="#">Accessories</a>
+						</div>
+						<div class="nav__box">
+							<p class="nav__menu-title">Women</p>
+							<a class="nav__item" href="#">Dresse</a>
+							<a class="nav__item" href="#">Tops</a>
+							<a class="nav__item" href="#">Sweaters/Knits</a>
+							<a class="nav__item" href="#">Jackets/Coats</a>
+							<p class="nav__menu-title">Women</p>
+							<a class="nav__item" href="#">Dresse</a>
+							<a class="nav__item" href="#">Tops</a>
+							<a class="nav__item" href="#">Sweaters/Knits</a>
+						</div>
+						<div class="nav__box">
+							<div class="nav__wrapper">
+								<p class="nav__menu-title">Women</p>
+								<a class="nav__item" href="#">Dresse</a>
+								<a class="nav__item" href="#">Tops</a>
+								<a class="nav__item" href="#">Sweaters/Knits</a>
+								<a class="nav__item" href="#">Jackets/Coats</a>
+							</div>
+							<div class="nav__img">
+								<img src="img/sale.jpg" alt="sale">
+							</div>
+						</div>
+					</div>
+				</li>
+				<li><a class="nav__link" href="">Accoseriese</a>
+					<div class="nav__menu nav__menu-accoseriese">
+						<div class="nav__box">
+							<p class="nav__menu-title">Women</p>
+							<a class="nav__item" href="#">Dresse</a>
+							<a class="nav__item" href="#">Tops</a>
+							<a class="nav__item" href="#">Sweaters/Knits</a>
+							<a class="nav__item" href="#">Jackets/Coats</a>
+							<a class="nav__item" href="#">Blazers</a>
+							<a class="nav__item" href="#">Denim</a>
+							<a class="nav__item" href="#">Leggings/Pants</a>
+							<a class="nav__item" href="#">Skirts/Shorts</a>
+							<a class="nav__item" href="#">Accessories</a>
+						</div>
+						<div class="nav__box">
+							<p class="nav__menu-title">Women</p>
+							<a class="nav__item" href="#">Dresse</a>
+							<a class="nav__item" href="#">Tops</a>
+							<a class="nav__item" href="#">Sweaters/Knits</a>
+							<a class="nav__item" href="#">Jackets/Coats</a>
+							<p class="nav__menu-title">Women</p>
+							<a class="nav__item" href="#">Dresse</a>
+							<a class="nav__item" href="#">Tops</a>
+							<a class="nav__item" href="#">Sweaters/Knits</a>
+						</div>
+						<div class="nav__box">
+							<div class="nav__wrapper">
+								<p class="nav__menu-title">Women</p>
+								<a class="nav__item" href="#">Dresse</a>
+								<a class="nav__item" href="#">Tops</a>
+								<a class="nav__item" href="#">Sweaters/Knits</a>
+								<a class="nav__item" href="#">Jackets/Coats</a>
+							</div>
+							<div class="nav__img">
+								<img src="img/sale.jpg" alt="sale">
+							</div>
+						</div>
+					</div>
+				</li>
+				<li><a class="nav__link" href="">Featured</a>
+					<div class="nav__menu nav__menu-featured">
+						<div class="nav__box">
+							<p class="nav__menu-title">Women</p>
+							<a class="nav__item" href="#">Dresse</a>
+							<a class="nav__item" href="#">Tops</a>
+							<a class="nav__item" href="#">Sweaters/Knits</a>
+							<a class="nav__item" href="#">Jackets/Coats</a>
+							<a class="nav__item" href="#">Blazers</a>
+							<a class="nav__item" href="#">Denim</a>
+							<a class="nav__item" href="#">Leggings/Pants</a>
+							<a class="nav__item" href="#">Skirts/Shorts</a>
+							<a class="nav__item" href="#">Accessories</a>
+						</div>
+						<div class="nav__box">
+							<p class="nav__menu-title">Women</p>
+							<a class="nav__item" href="#">Dresse</a>
+							<a class="nav__item" href="#">Tops</a>
+							<a class="nav__item" href="#">Sweaters/Knits</a>
+							<a class="nav__item" href="#">Jackets/Coats</a>
+							<p class="nav__menu-title">Women</p>
+							<a class="nav__item" href="#">Dresse</a>
+							<a class="nav__item" href="#">Tops</a>
+							<a class="nav__item" href="#">Sweaters/Knits</a>
+						</div>
+						<div class="nav__box">
+							<div class="nav__wrapper">
+								<p class="nav__menu-title">Women</p>
+								<a class="nav__item" href="#">Dresse</a>
+								<a class="nav__item" href="#">Tops</a>
+								<a class="nav__item" href="#">Sweaters/Knits</a>
+								<a class="nav__item" href="#">Jackets/Coats</a>
+							</div>
+							<div class="nav__img">
+								<img src="img/sale.jpg" alt="sale">
+							</div>
+						</div>
+					</div>
+				</li>
+				<li><a class="nav__link" href="">Hot Deals</a>
+					<div class="nav__menu nav__menu-deals">
+						<div class="nav__box">
+							<p class="nav__menu-title">Women</p>
+							<a class="nav__item" href="#">Dresse</a>
+							<a class="nav__item" href="#">Tops</a>
+							<a class="nav__item" href="#">Sweaters/Knits</a>
+							<a class="nav__item" href="#">Jackets/Coats</a>
+							<a class="nav__item" href="#">Blazers</a>
+							<a class="nav__item" href="#">Denim</a>
+							<a class="nav__item" href="#">Leggings/Pants</a>
+							<a class="nav__item" href="#">Skirts/Shorts</a>
+							<a class="nav__item" href="#">Accessories</a>
+						</div>
+						<div class="nav__box">
+							<p class="nav__menu-title">Women</p>
+							<a class="nav__item" href="#">Dresse</a>
+							<a class="nav__item" href="#">Tops</a>
+							<a class="nav__item" href="#">Sweaters/Knits</a>
+							<a class="nav__item" href="#">Jackets/Coats</a>
+							<p class="nav__menu-title">Women</p>
+							<a class="nav__item" href="#">Dresse</a>
+							<a class="nav__item" href="#">Tops</a>
+							<a class="nav__item" href="#">Sweaters/Knits</a>
+						</div>
+						<div class="nav__box">
+							<div class="nav__wrapper">
+								<p class="nav__menu-title">Women</p>
+								<a class="nav__item" href="#">Dresse</a>
+								<a class="nav__item" href="#">Tops</a>
+								<a class="nav__item" href="#">Sweaters/Knits</a>
+								<a class="nav__item" href="#">Jackets/Coats</a>
+							</div>
+							<div class="nav__img">
+								<img src="img/sale.jpg" alt="sale">
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="crumbs">
+		<div class="container crumbs__wrapper">
+			<div class="crumbs__title">
+				New Arrivals
+			</div>
+			<nav class="crumbs__path">
+				<ul class="crumbs__list">
+					<li class="crumbs__item"><a href="index.html" class="crumbs__link">home</a></li>
+					<li class="crumbs__item"><a href="#" class="crumbs__link">men</a></li>
+					<li class="crumbs__item crumbs__item-current">New Arrivals</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+
+	<section class="checkout">
+		<div class="container">
+
+			<div class="checkout__header">
+				<div class="checkout__title active" data-collapse="#data_1">
+					<span>01.</span>Shipping Adress
+				</div>
+				<div class="checkout__content" id="data_1">
+					<div class="checkout__content-guest">
+						<p class="checkout__content-guest-title">Check as a guest or register</p>
+						<p class="checkout__content-guest-text">Register with us for future convenience</p>
+						<form action="#" class="form__guest">
+							<div class="form__guest-wrapper">
+								<input class="form__guest-input" type="radio" name="check" id="guest">
+								<label class="form__guest-label" for="guest">checkout as guest</label>
+							</div>
+							<div class="form__guest-wrapper">
+								<input class="form__guest-input" type="radio" name="check" id="register">
+								<label class="form__guest-label" for="register">register</label>
+							</div>
+
+
+
+							<p class="checkout__content-guest-title">register and save time!</p>
+							<p class="checkout__content-guest-text">Register with us for future convenience</p>
+							<a href="#" class="form__guest-link">Fast and easy checkout</a>
+							<a href="#" class="form__guest-link">Easy access to your order history and status</a>
+							<button type="submit" class="form__guest-btn">Continue</button>
+						</form>
+					</div>
+					<div class="checkout__content-registed">
+						<h4 class="checkout__content-registed-title">Already registed?</h4>
+						<p class="checkout__content-registed-text">Please log in below</p>
+						<form action="#" class="form__registed">
+							<p class="form__registed-info">EMAIL ADDRESS<sup><span>*</span></sup></p>
+							<input type="email" name="email" class="form__registed-input" required>
+							<p class="form__registed-info">PASSWORD<sup><span>*</span></sup></p>
+							<input type="password" name="password" class="form__registed-input" required>
+							<p class="form__registed-required">* Required Fileds</p>
+							<button type="submit" class="form__registed-btn">Log in</button>
+							<a href="#" class="form__registed-link">Forgot Password ?</a>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="checkout__header">
+				<div class="checkout__title" data-collapse="#data_2">
+					<span>02.</span>BILLING INFORMATION
+				</div>
+				<div class="checkout__content" id="data_2">
+					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia consectetur iusto nam deleniti dicta in maxime
+					excepturi vitae cupiditate optio. Fuga, odit saepe natus veritatis placeat sit culpa cupiditate asperiores ex
+					dicta accusamus, explicabo et! Laborum officiis odit delectus distinctio vitae neque. Deserunt, impedit quae?
+					Officiis asperiores aspernatur possimus perferendis hic libero facilis harum minima eos laboriosam pariatur,
+					nam soluta? Ex magni, possimus similique illum vero corrupti cumque vel enim veniam maiores, molestiae
+					exercitationem consequuntur culpa a quod voluptatibus fuga numquam ipsam reprehenderit ea atque! Quidem quod
+					optio in? Iusto tenetur quaerat non dolor labore delectus laborum! Recusandae dignissimos, illo odit
+					praesentium omnis, quaerat non placeat explicabo corporis perferendis, tempore eligendi eum velit maiores!
+					Dolorem expedita inventore quos, recusandae fuga corporis unde quasi incidunt numquam, dicta cum laudantium
+					qui corrupti quisquam amet eaque nulla odit. Cum ab aperiam consectetur, est dolorem quis error pariatur ea
+					sit atque aliquam ex expedita minus culpa incidunt cupiditate facilis odio laborum tenetur fugit unde aliquid
+					reiciendis in. Quam molestias necessitatibus impedit animi sed distinctio explicabo possimus iste aspernatur,
+					doloremque obcaecati tenetur delectus illum tempore iusto cumque accusamus laboriosam nostrum ad blanditiis
+					cupiditate. Sapiente, aperiam ipsum quo autem unde sed mollitia culpa possimus pariatur assumenda quibusdam
+					nesciunt maxime asperiores exercitationem est explicabo eos vel odio natus in incidunt excepturi molestiae
+					dolorem laboriosam? Error quibusdam ex tempora amet enim sapiente numquam temporibus cum illo dolor quam, non
+					animi soluta maiores reiciendis, in molestias repellendus labore vitae. Sed repudiandae molestiae autem nam
+					commodi eum ducimus! Quia dolorum neque exercitationem obcaecati quos aperiam, doloribus fugiat officia iure
+					nostrum. Officiis eaque reiciendis alias dolorum ipsa magni porro exercitationem libero sint dignissimos saepe
+					minima non, molestiae ducimus blanditiis autem quidem, accusamus at adipisci et. Adipisci suscipit explicabo
+					repudiandae quam architecto et ut vitae sapiente veritatis. Porro, odio. Amet minus officiis saepe eos, in
+					ratione libero sint ex distinctio cupiditate sit tenetur eveniet enim sequi ducimus accusantium nihil
+					consectetur modi consequatur inventore voluptatibus? Molestiae tenetur non, odio totam veritatis, natus autem
+					repellat, suscipit rerum aut qui sapiente beatae voluptas magnam nisi eveniet optio recusandae vel. Voluptate
+					ratione blanditiis animi provident, delectus porro, accusamus quia dignissimos exercitationem itaque id
+					mollitia illo iste consectetur. Modi labore repellendus corrupti! Repudiandae esse, adipisci corrupti earum
+					eaque porro non totam. Repellat, ipsam? Obcaecati qui accusamus deserunt tempore mollitia commodi, itaque eius
+					voluptatum vel quae unde cupiditate vero aliquam, corrupti dolor debitis beatae asperiores incidunt pariatur
+					sed natus nobis soluta, perspiciatis eligendi. Quis, placeat fuga, debitis laudantium repudiandae nostrum
+					dignissimos ratione sequi sit, rem laborum aperiam excepturi illo magni error voluptatem. Dolorem deserunt
+					iste, quas eligendi quae ducimus eveniet nobis dicta enim reiciendis quam dolores veritatis similique
+					temporibus, excepturi nemo labore et laboriosam inventore mollitia velit ut, odit quibusdam facilis. Fugit
+					soluta temporibus saepe dicta ducimus doloremque commodi corrupti? Aspernatur autem soluta fuga neque hic sed
+					saepe odio libero harum quibusdam. Ipsam magni omnis, animi quidem ducimus natus itaque ut ullam rem eaque
+					quod non autem neque nihil accusantium voluptatibus iste est facere sint vero at. Voluptate.
+				</div>
+			</div>
+			<div class="checkout__header">
+				<div class="checkout__title" data-collapse="#data_3">
+					<span>03.</span>SHIPPING INFORMATION
+				</div>
+				<div class="checkout__content" id="data_3">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus doloremque facilis fuga dolorem nostrum
+					iusto id sed labore iste ratione! Cumque omnis odio ducimus porro mollitia, obcaecati maxime voluptates
+					distinctio fugit voluptatibus officia. Quos possimus necessitatibus eaque quod reprehenderit omnis optio
+					blanditiis odit explicabo recusandae similique commodi amet enim error voluptas veritatis nobis ex eveniet,
+					voluptates illo exercitationem provident nesciunt laborum facilis? Dolores velit neque laboriosam aperiam ea
+					modi cupiditate eligendi. Maiores veritatis cumque voluptatibus sequi reiciendis aliquid harum perspiciatis
+					nihil corporis commodi corrupti, qui natus libero nisi, eaque porro minima fuga possimus nostrum odio earum
+					cum unde quaerat et! Laboriosam vitae assumenda fuga exercitationem nam vero consequuntur illo explicabo.
+					Unde, similique debitis. A, pariatur. Minus possimus natus consectetur dolor dicta autem perferendis culpa
+					dolorum nemo! Quas ipsum ducimus porro! Odit eum explicabo possimus odio consequuntur, asperiores voluptas
+					quae atque necessitatibus! Dolores quasi facilis error, illum at, itaque temporibus velit quis suscipit
+					molestias quae repellendus doloribus mollitia et ducimus aspernatur incidunt magni voluptates culpa minima
+					laudantium hic laborum in iusto? Cupiditate porro a necessitatibus dolor laudantium magnam sapiente recusandae
+					ad saepe eos, vero expedita nihil, beatae blanditiis eligendi quisquam consequatur eum, ullam deserunt officia
+					corrupti similique. Ad nam quae ducimus delectus asperiores enim mollitia accusamus! Consequatur inventore a
+					praesentium architecto similique earum minima natus mollitia harum quia, adipisci explicabo ea labore sunt
+					veniam ducimus accusantium voluptatibus quis accusamus delectus provident. Animi sequi eum saepe, repudiandae,
+					aperiam accusantium laborum fugiat labore, magni tempore tenetur blanditiis. Dolorum voluptatum odio esse
+					minus modi perspiciatis a voluptates consectetur blanditiis facilis vel, voluptate laborum itaque aspernatur.
+					Quia perspiciatis aliquam in amet cupiditate maiores quisquam, unde cum quo consequatur culpa tempora dolor
+					voluptatibus dignissimos temporibus! Culpa animi nostrum delectus perferendis, consequuntur alias eos
+					molestiae reprehenderit ab obcaecati? Nesciunt quo itaque non obcaecati consequatur, dolorem quidem aut nisi
+					soluta facere totam deserunt amet perferendis quis ratione voluptate! Quo iusto qui quod ducimus expedita
+					maxime deleniti eius omnis nisi tenetur, provident amet animi in veritatis esse vel, voluptatum quos rerum.
+					Minima debitis voluptas commodi nulla officia animi voluptate neque nemo at? Enim totam laudantium ipsa? Est
+					sapiente aspernatur fuga repudiandae porro. Ipsum, laborum nam. Ut mollitia eum sed nisi, rem quidem. Sint
+					delectus facere ipsa quis officiis doloremque officia et sapiente fuga, possimus amet unde exercitationem
+					consequatur in dolor cumque fugit inventore harum tenetur deleniti. Reprehenderit voluptatum, velit incidunt
+					atque placeat sapiente rerum repellat. Quo, error placeat quibusdam iure a minima. Aliquid nobis deleniti
+					suscipit pariatur sit fugit voluptatem perferendis molestias minima provident iure veritatis vel minus aperiam
+					deserunt nihil accusantium dolor, qui natus in, ipsa facere architecto harum. Facilis perspiciatis possimus
+					vero ullam, tempore necessitatibus saepe recusandae unde ex sunt delectus harum dolorem excepturi eos! Velit,
+					sequi! Temporibus reprehenderit eius consectetur itaque iste suscipit exercitationem necessitatibus nostrum
+					incidunt, cupiditate voluptatibus! Ad omnis dolore quas, totam rem veniam atque voluptas vero blanditiis
+					deleniti! Repellat provident ex, natus velit optio impedit doloribus odit illum illo accusamus, ratione nobis
+					enim quas nulla voluptatibus dignissimos harum quod debitis voluptate id quibusdam!
+				</div>
+			</div>
+			<div class="checkout__header">
+				<div class="checkout__title" data-collapse="#data_4">
+					<span>04.</span>SHIPPING METHOD
+				</div>
+				<div class="checkout__content" id="data_4">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum eaque voluptates vero placeat quae eveniet
+					excepturi eos eius blanditiis, sed ab quam, inventore nulla tempora error modi unde mollitia quod aspernatur
+					dolor. Officiis molestias consectetur vitae reprehenderit. Veritatis, temporibus culpa. Vitae commodi earum
+					illum, suscipit aliquid culpa labore ad debitis sint aperiam officiis alias veritatis? Totam itaque deserunt
+					praesentium ea accusantium natus enim provident necessitatibus saepe dolorem tempore repudiandae eos odit
+					ipsam, voluptatibus magnam repellendus nobis facilis. Nulla aut quam alias dolores nisi, maxime sequi officiis
+					quod quaerat cumque ex nesciunt commodi cupiditate quibusdam a numquam neque accusantium iusto perspiciatis
+					magni consequuntur tenetur veritatis! Quam adipisci, obcaecati assumenda saepe ducimus voluptatem qui nobis
+					nostrum sed expedita veniam iure quae labore asperiores tempora laborum in aliquam fuga soluta optio beatae.
+					Odio ipsa harum earum maiores reprehenderit minus officia, veniam ab qui sapiente possimus rerum quod ut?
+					Quaerat aliquid assumenda dicta eveniet aspernatur, impedit earum dolores iste. Necessitatibus vero quod
+					dolore cum aliquam aspernatur distinctio iusto earum quibusdam aut, perspiciatis perferendis unde hic
+					voluptas, voluptate et recusandae ab accusantium voluptates ullam velit similique. Odio unde nulla magni illo
+					optio, id deserunt minus quidem corporis quisquam numquam labore velit cumque qui doloremque! Nam quaerat
+					ullam et, repudiandae facere error dolor expedita. Nam, suscipit quis molestias non voluptas inventore sint
+					eos. Consequuntur odit dolores odio ad, sunt sequi necessitatibus tenetur ex totam quos ratione eos delectus!
+					Recusandae quis quaerat debitis omnis obcaecati ipsum magnam! Illo reiciendis esse, molestiae aut minus
+					consequatur praesentium rerum exercitationem reprehenderit. Assumenda, amet quidem vero sint doloremque vitae.
+					Repudiandae consequatur dolores in amet repellendus a vel corporis nobis aliquid ipsum, magni asperiores
+					facere maxime, fuga iste reprehenderit dolorum recusandae, illum distinctio molestiae sit? Tempore iusto
+					accusamus, sit repudiandae sequi porro laboriosam dolorem illo facere velit earum repellendus voluptatibus
+					voluptatum fuga itaque quidem ipsa temporibus? Quo quaerat explicabo natus rerum autem in perspiciatis impedit
+					amet quisquam quia aliquam quasi, laudantium recusandae repellendus quas modi ducimus quae. Mollitia suscipit
+					quam, asperiores laudantium ab inventore voluptate nisi saepe iusto ea ut nostrum fuga debitis vitae? Quae
+					illum laudantium incidunt eos, cupiditate saepe vel et tenetur sunt nulla officiis facilis enim ut magni
+					similique labore dignissimos dolores sed. Alias ex cum repudiandae eos dicta. Voluptatum laboriosam cupiditate
+					laudantium, sit excepturi eos a, voluptates nisi alias iste vero. Provident tenetur delectus cupiditate ad
+					magni. Repellat illo, eos animi eaque eveniet nisi, quia omnis, temporibus placeat necessitatibus quasi
+					explicabo expedita veritatis tenetur? Cumque illo veniam asperiores enim sint, ab nam expedita fugiat
+					recusandae quia minus voluptatibus. Obcaecati placeat est ipsa facilis? Consectetur accusamus unde dolorem
+					fugit corporis tempore! Nihil, eligendi ullam excepturi omnis quibusdam eum, mollitia ipsa doloremque, et
+					suscipit nesciunt quis obcaecati repellendus? Blanditiis quas est id neque iste voluptatibus recusandae
+					reprehenderit nam incidunt, ea ipsam voluptatem sint quibusdam aspernatur impedit saepe facilis tempore
+					repellendus itaque reiciendis mollitia nisi? Velit modi amet reprehenderit consectetur libero iste rem
+					repellat error numquam, voluptate iusto doloremque est nihil incidunt explicabo ipsum aspernatur. Inventore id
+					impedit deserunt saepe aperiam?
+				</div>
+			</div>
+			<div class="checkout__header">
+				<div class="checkout__title" data-collapse="#data_5">
+					<span>05.</span>PAYMENT METHOD
+				</div>
+				<div class="checkout__content" id="data_5">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem pariatur nam, quidem inventore non, ex, omnis
+					mollitia itaque iusto ipsam sunt dolor. Iste neque fugiat laboriosam molestiae totam at commodi repellendus
+					doloribus, corporis est deserunt ea illo ullam veritatis, possimus esse sit ad sequi harum architecto amet
+					similique quae! Voluptatem ratione, doloribus inventore excepturi, ad, ut consequuntur architecto asperiores
+					harum consectetur aliquid ea? Tenetur deserunt illo, veniam nobis perspiciatis quisquam repudiandae dolorum
+					corrupti placeat quidem voluptates cumque optio porro, aperiam quaerat harum, cum perferendis unde animi a
+					distinctio deleniti. Cumque nostrum repudiandae repellat, quia cupiditate explicabo ullam excepturi aliquid
+					cum. At earum quod aut cum natus sit quae ratione, blanditiis tempora ullam. Quam, a accusamus. Nostrum labore
+					dolorem expedita vitae fugit, sunt voluptas error molestias perferendis ad impedit hic sed nobis! Deleniti
+					architecto exercitationem quaerat, asperiores maxime eligendi expedita ipsa suscipit earum doloribus quae
+					pariatur accusamus, voluptatem magnam voluptatum vitae, reiciendis nihil nisi autem officia. Adipisci, quaerat
+					minus? Doloremque recusandae adipisci voluptates deserunt! Doloremque cupiditate blanditiis nostrum deserunt,
+					ipsa vero, possimus animi quod veniam omnis molestiae beatae nemo libero eum pariatur odio quo culpa odit iste
+					dolorem enim nesciunt. Totam quos error voluptas expedita quo veniam. Pariatur, vitae veniam aspernatur eum
+					similique saepe hic harum asperiores! Expedita at eaque et iure eligendi incidunt est alias debitis, sapiente
+					temporibus. Eligendi autem laboriosam facere atque, harum pariatur assumenda accusamus, molestiae unde quas
+					cumque sit officiis error corporis quod quo adipisci! Ab labore necessitatibus nisi voluptatibus dolores
+					consequuntur, velit, voluptatem facilis alias fuga cumque quae laudantium, dicta excepturi minima omnis
+					explicabo odit totam esse. Consequuntur nostrum modi repellat minus, quis sequi rem dicta sit odio totam est
+					eum deserunt? Ea laudantium ratione ad vero. Laudantium quaerat, excepturi vero dolorum eum fugit unde sint
+					molestias ut at minima necessitatibus error dolores incidunt molestiae, assumenda eos velit perspiciatis vel,
+					tempora est placeat explicabo. Facilis unde officiis consequuntur! Cumque minus veritatis ad ratione, eaque
+					reprehenderit earum, optio dolorum natus quos sapiente quo deserunt vero suscipit nam a, consectetur enim!
+					Alias velit, unde, accusamus dolores doloribus distinctio sequi necessitatibus, sit architecto voluptate
+					recusandae? Incidunt porro rem enim eaque quidem nam adipisci nisi, nihil quod blanditiis tempora magni
+					consectetur magnam nostrum assumenda excepturi labore, aliquid reprehenderit expedita soluta omnis? Aspernatur
+					fugiat accusamus adipisci quod odit debitis aliquid labore sed, consectetur explicabo natus ullam expedita
+					recusandae quaerat officiis eaque rerum delectus saepe corrupti doloribus autem enim? Nihil voluptas aperiam
+					illum incidunt non, quae enim atque numquam fugit, maiores quaerat accusantium porro sunt neque placeat
+					aliquid suscipit temporibus recusandae dolore? Inventore alias, sapiente quasi quaerat labore, cumque
+					aspernatur, nesciunt consequatur suscipit veniam fugit. Recusandae error dolor sequi eligendi. Quisquam quis
+					tempore ipsum voluptas, maxime architecto voluptates iusto reprehenderit rerum nostrum odit. Earum architecto
+					laboriosam, ut quo quod aut quam nam quasi repellendus eveniet aspernatur voluptates vel similique nostrum
+					voluptatum sapiente recusandae dolorem assumenda fugit perspiciatis rerum. Ratione quae vitae doloribus
+					consectetur aliquid distinctio, aspernatur corrupti, soluta eos porro debitis ad natus corporis officia illo
+					inventore? Doloremque dolores atque sed hic?
+				</div>
+			</div>
+			<div class="checkout__header">
+				<div class="checkout__title" data-collapse="#data_6">
+					<span>06.</span>ORDER REVIEW
+				</div>
+				<div class="checkout__content" id="data_6">
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati architecto similique aliquid,
+					reprehenderit quo quaerat voluptates provident nihil voluptas temporibus voluptatem consectetur cum officiis
+					possimus vitae inventore repellat quam ipsa. Fugiat, obcaecati dolor delectus iste qui iusto odit aliquid
+					cumque assumenda debitis beatae nobis doloribus! Ut iste, minus dolore nesciunt omnis repudiandae totam
+					laboriosam explicabo odit mollitia consectetur consequatur quae facilis vitae. Perferendis eligendi minima
+					voluptatibus ipsum iste? Cumque exercitationem molestiae quidem quia doloremque mollitia suscipit voluptas
+					odio quae similique placeat delectus corporis optio, eius dicta earum ducimus obcaecati libero totam. Sapiente
+					tempora, architecto delectus voluptatibus nulla neque soluta veniam enim magni modi repellat quisquam et quis
+					totam sunt consequuntur repellendus exercitationem sed quibusdam ut? Asperiores, cumque fugit ea fugiat, et
+					dolor voluptatem commodi facere, nesciunt architecto enim nostrum labore culpa dicta omnis eius. Itaque totam
+					aut, nesciunt fuga incidunt nobis unde, quasi ratione similique eum commodi eaque dolorem. Incidunt dolorem
+					doloribus enim voluptate quas non nisi quidem doloremque, nesciunt optio! Facere neque sint amet eligendi
+					porro laborum doloribus est, vel animi fugiat in omnis ea qui minus. Quaerat explicabo minima ab rerum labore
+					ullam inventore adipisci qui accusamus deleniti consequatur aliquid illo omnis assumenda similique, vitae
+					culpa! Reiciendis blanditiis, saepe quo laboriosam numquam mollitia facere molestias doloribus dignissimos
+					accusantium ea assumenda minima minus voluptate voluptates! Autem laudantium molestias beatae quae sed est
+					ullam facere, laborum consequatur sequi id cupiditate saepe expedita quos vel fugit veniam adipisci quasi
+					dolorem velit minus harum odio iusto. A dolorum expedita ab nisi aspernatur fugiat quaerat mollitia eaque
+					molestiae enim libero sunt ea aliquid, eveniet incidunt! Rerum eius deserunt est odio facilis totam, ex a
+					beatae dignissimos eveniet esse harum veniam illo unde molestiae temporibus quaerat quod. Consequuntur
+					eligendi vitae fugiat! Tempore error, vero voluptatem expedita nihil qui, animi dignissimos laborum distinctio
+					repudiandae amet ipsa. Repellendus minima ut aliquid odio adipisci, laudantium possimus voluptas eius nam.
+					Quia libero cumque veritatis repellat voluptas ea magnam dolore incidunt natus laboriosam nisi eveniet non,
+					amet commodi numquam hic labore possimus sequi rerum molestias fugiat asperiores? Unde corporis, inventore
+					placeat deleniti esse quae laborum ab fugiat magnam quibusdam repellat provident nobis similique eveniet
+					pariatur vero doloribus saepe eum rem ratione? Sed quis ut eius facere sunt maxime magnam iusto inventore
+					eaque commodi minima consectetur temporibus impedit ducimus quisquam alias culpa nostrum excepturi aspernatur,
+					voluptatibus ab eligendi corrupti. Vero, repellendus minima reprehenderit, labore laudantium repudiandae
+					explicabo consectetur maxime harum illum natus, aspernatur cumque molestiae iure? Ducimus dolorem, nemo
+					maiores non, sunt porro temporibus dolore iure cum eveniet eos fugit id unde odio deleniti voluptatem quis
+					modi provident ex, inventore molestiae? Minima temporibus eum harum excepturi reprehenderit, ex voluptatibus
+					neque asperiores libero natus. Ipsa accusantium libero obcaecati ullam commodi cum iusto, a, quas nulla iste
+					voluptates labore unde officia, explicabo voluptate culpa deleniti debitis? Unde dolorem corrupti et libero
+					saepe fugiat adipisci necessitatibus, ratione voluptatum amet incidunt autem maiores nesciunt placeat sunt
+					voluptas. Corporis, ad architecto! Facilis maxime perspiciatis quae laborum natus quas at, harum debitis enim
+					doloremque dolor labore!
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="subscribe">
+		<div class="container">
+			<div class="subscribe__wrapper">
+				<div class="subscribe__box">
+					<div class="subscribe__feedback">
+						<div class="subscribe__feedback-photo">
+							<img src="img/photo.png" alt="photo">
+						</div>
+						<div class="subscribe__feedback-text">
+							<p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+								a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+							<div class="subscribe__feedback-name">Bin Burhan</div>
+							<p class="subscribe__feedback-prof">Dhaka, Bd</p>
+						</div>
+					</div>
+					<div class="pagination">
+						<a href="javascript:void(0);" class="pagination__line"></a>
+						<a href="javascript:void(0);" class="pagination__line pagination__line-active"></a>
+						<a href="javascript:void(0);" class="pagination__line"></a>
+					</div>
+				</div>
+
+				<div class="subscribe__block">
+					<p class="subscribe__block-title">Subscribe</p>
+					<p class="subscribe__block-subtitle">FOR OUR NEWLETTER AND PROMOTION</p>
+					<form class="subscribe__block-form" action="#">
+						<input class="subscribe__block-input" type="email" placeholder="Enter Your Email">
+						<button class="subscribe__block-btn" type="submit">Subscribe</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__wrapper">
+				<div class="footer__logo">
+					<a class="logo__link" href="index.html">
+						<img class="logo__image" src="img/logo.png" alt="logo">
+						<p>BRAN<span>D</span></p>
+					</a>
+					<div class="footer__info">
+						Objectively transition extensive data rather than cross functional solutions. Monotonectally
+						syndicate
+						multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array
+						of processes
+						and cross-unit partnerships.
+						<br><br>
+						Efficiently plagiarize 24/365 action items and focused infomediaries.
+						Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.
+
+					</div>
+				</div>
+				<nav class="footer__nav">
+					<div class="footer__company">
+						<p class="footer__title">COMPANY</p>
+						<ul class="footer__list">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="javascript:void(0);">Shop</a></li>
+							<li><a href="javascript:void(0);">About</a></li>
+							<li><a href="javascript:void(0);">How It Works</a></li>
+							<li><a href="javascript:void(0);">Contact</a></li>
+						</ul>
+					</div>
+					<div class="footer__information">
+						<p class="footer__title">INFORMATION</p>
+						<ul class="footer__list">
+							<li><a href="javascript:void(0);">Tearms & Condition</a></li>
+							<li><a href="javascript:void(0);">Privacy Policy</a></li>
+							<li><a href="javascript:void(0);">How to Buy</a></li>
+							<li><a href="javascript:void(0);">How to Sell</a></li>
+							<li><a href="javascript:void(0);">Promotion</a></li>
+						</ul>
+					</div>
+					<div class="footer__category">
+						<p class="footer__title">SHOP CATEGORY</p>
+						<ul class="footer__list">
+							<li><a href="javascript:void(0);">Men</a></li>
+							<li><a href="javascript:void(0);">Women</a></li>
+							<li><a href="javascript:void(0);">Child</a></li>
+							<li><a href="javascript:void(0);">Apparel</a></li>
+							<li><a href="javascript:void(0);">Brows All</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+		<div class="footer__copyright">
+			<div class="container footer__copyright-wrapper">
+				<div class="footer__copy">
+					&copy; 2021 Brand All Rights Reserved.
+				</div>
+
+				<nav class="footer__social">
+					<ul class="footer__social-list">
+						<li><a href="http://facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li><a href="https://ru-ru.facebook.com/LinkedIn/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+						</li>
+						<li><a href="https://www.pinterest.ru/"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+						</li>
+						<li><a href="https://plus.google.com/"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+
+		</div>
+	</footer>
+	<!-- <script src="https://use.fontawesome.com/498429ed19.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script>
+		$("[data-collapse]").on("click", function (event) {
+			event.preventDefault();
+
+			var $this = $(this),
+				blockId = $this.data('collapse');
+
+			$this.toggleClass("active");
+		});
+
+	</script> -->
+
+	<script>
+		let select = function () {
+			let selectHeader = document.querySelectorAll('.checkout__title');
+
+
+			selectHeader.forEach(item => {
+				item.addEventListener('click', selectToggle)
+			});
+
+
+			function selectToggle() {
+				this.classList.toggle('active');
+			}
+		};
+
+		select();
+	</script>
+
+</body>
+
+</html>
