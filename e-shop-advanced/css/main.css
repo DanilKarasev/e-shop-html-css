@@ -1065,11 +1065,12 @@ body {
 
 /* section subscribe */
 .subscribe {
-  max-width: 1600px;
   height: 438px;
   margin: 0 auto;
   background-image: url("../img/bgi2.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .subscribe__wrapper {
@@ -1376,3 +1377,4 @@ body {
   color: #fff;
   background-color: #f16d7f;
 }
+/*# sourceMappingURL=main.css.map */
