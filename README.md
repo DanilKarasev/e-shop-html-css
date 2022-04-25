@@ -1,9 +1,9 @@
-# Верстка интернет-магазина по макетам
+# E-shop on Html/Css by Figma layout
 
-Верстка интернет магазина, чистый HTML\CSS, JS отсутствует.\
+Pure Html/Css, no JavaScript
 
 `e-shop-advanced`\
-Верстка продвинутого макета - десктоп версия. 
+Advanced layout, desktop version
 
 `e-shop`\
-Стандартный макет с одной адаптивной главной страницей - проект доделан не до конца. Карусель взята с бутстрапа.
+Common layout with just one adaptive index page. Carousel taken from Bootstrap
